@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trailtop Balance Pad - Matras Lutut Yoga Premium</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #fff9fa;
+            color: #555;
+        }
+        
+        .soft-rose-bg {
+            background-color: #fff0f3;
+        }
+        
+        .rose-text {
+            color: #d14d72;
+        }
+        
+        .product-card {
+            transition: transform 0.3s ease;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .promo-timer {
+            background: linear-gradient(135deg, #f8bbd0, #f48fb1);
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(244, 143, 177, 0.7);
+            }
+            70% {
+                box-shadow: 0 0 0 10px rgba(244, 143, 177, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(244, 143, 177, 0);
+            }
+        }
+        
+        .testimonial-card {
+            background: white;
+            box-shadow: 0 5px 15px rgba(209, 77, 114, 0.1);
+        }
+        
+        .color-variant {
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+        
+        .color-variant:hover {
+            border-color: #d14d72;
+            transform: scale(1.05);
+        }
+        
+        .color-variant.active {
+            border-color: #d14d72;
+            box-shadow: 0 0 10px rgba(209, 77, 114, 0.3);
+        }
+        
+        .discount-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #d14d72;
+            color: white;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 14px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="soft-rose-bg">
+    <!-- Header Section -->
+    <header class="py-4 px-6 bg-white shadow-sm">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-2xl font-bold rose-text">Trailtop Balance Pad</div>
+            <div class="hidden md:flex space-x-6">
+                <a href="#product" class="hover:text-rose-500 transition">Produk</a>
+                <a href="#features" class="hover:text-rose-500 transition">Fitur</a>
+                <a href="#testimonials" class="hover:text-rose-500 transition">Testimoni</a>
+                <a href="#order" class="hover:text-rose-500 transition">Pesan Sekarang</a>
+            </div>
+            <button class="md:hidden text-rose-500">
+                <i ></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section with Main Product Image -->
+    <section class="py-8 px-4">
+        <div class="container mx-auto">
+            <div class="flex justify-center">
+                <img src="https://down-th.img.susercontent.com/file/sg-11134201-7rcf4-lrw5itktdjd36c" 
+                     alt="Trailtop Balance Pad" 
+                     class="w-full max-w-2xl rounded-lg shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Title and Description -->
+    <section id="product" class="py-8 px-4">
+        <div class="container mx-auto max-w-4xl">
+            <h1 class="text-3xl md:text-4xl font-bold text-center mb-6 rose-text">Trailtop Balance Pad</h1>
+            <p class="text-lg text-center mb-8">
+                Matras Lutut Yoga Knee Pad adalah bantalan untuk lutut, pergelagan kaki, sikut, dan titik tekanan lain nya yang berfungsi agar pengalaman olahraga / yoga anda menjadi lebih nyaman dan bebas dari rasa sakit. Selain itu, dapat melindungi permukaan kulit sehingga tidak terjadi hiperpigmentasi yang diakibatkan gesekan dengan lantai atau permukaan kasar lainnya.
+            </p>
+            
+            <div class="flex justify-center">
+                <a href="#order" >
+                     
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Features -->
+    <section id="features" class="py-12 px-4 bg-white">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12 rose-text">Keunggulan Produk</h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="product-card bg-white p-6 rounded-xl shadow-md">
+                    <div class="text-rose-500 text-4xl mb-4">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Bahan NBR Premium</h3>
+                    <p class="text-gray-600">Bahan NBR yang lembut namun tahan lama memberikan bantalan yang optimal untuk melindungi lutut Anda dari tekanan berlebih saat menggunakan Ab Wheel.</p>
+                </div>
+                
+                <div class="product-card bg-white p-6 rounded-xl shadow-md">
+                    <div class="text-rose-500 text-4xl mb-4">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Perlindungan Maksimal</h3>
+                    <p class="text-gray-600">Melindungi kulit dari gesekan langsung dengan lantai, mencegah hiperpigmentasi dan iritasi kulit akibat aktivitas yoga atau olahraga.</p>
+                </div>
+                
+                <div class="product-card bg-white p-6 rounded-xl shadow-md">
+                    <div class="text-rose-500 text-4xl mb-4">
+                        <i class="fas fa-thumbs-up"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Nyaman Digunakan</h3>
+                    <p class="text-gray-600">Desain ergonomis yang sesuai dengan bentuk tubuh, memberikan kenyamanan maksimal selama sesi yoga atau olahraga.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Details with Images -->
+    <section class="py-12 px-4">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12 rose-text">Detail Produk</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <img src="https://down-th.img.susercontent.com/file/sg-11134201-7rd4j-m7xdf2pp3ebaaa" 
+                         alt="Detail Produk 1" 
+                         class="w-full rounded-lg shadow-md mb-4">
+                    <p class="font-medium">Desain ergonomis untuk kenyamanan maksimal</p>
+                </div>
+                
+                <div class="text-center">
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7rasi-m55akco1inrn97.webp" 
+                         alt="Detail Produk 2" 
+                         class="w-full rounded-lg shadow-md mb-4">
+                    <p class="font-medium">Tekstur permukaan anti-slip</p>
+                </div>
+                
+                <div class="text-center">
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7rasi-m55akco1eg2be7@resize_w450_nl.webp" 
+                         alt="Detail Produk 3" 
+                         class="w-full rounded-lg shadow-md mb-4">
+                    <p class="font-medium">Ketebalan optimal untuk perlindungan</p>
+                </div>
+                
+                <div class="text-center">
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7ras9-m55akco1d1hvd6.webp" 
+                         alt="Detail Produk 4" 
+                         class="w-full rounded-lg shadow-md mb-4">
+                    <p class="font-medium">Ringan dan mudah dibawa</p>
+                </div>
+                
+                <div class="text-center">
+                    <img src="https://ae01.alicdn.com/kf/Sf02333382fc349eb86bed2ecd30fbd22L.jpg_640x640q90.jpg" 
+                         alt="Detail Produk 5" 
+                         class="w-full rounded-lg shadow-md mb-4">
+                    <p class="font-medium">Multi-fungsi untuk berbagai aktivitas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Color Variants -->
+    <section class="py-12 px-4 bg-white">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12 rose-text">Pilihan Warna</h2>
+            
+            <div class="flex justify-center space-x-6 md:space-x-12">
+                <div class="color-variant cursor-pointer">
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7rbkd-maxy7do3jz3s4d@resize_w450_nl.webp" 
+                         alt="Warna 1" 
+                         class="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover">
+                </div>
+                
+                <div class="color-variant cursor-pointer">
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7rbkd-maxy7do3ikjcc9@resize_w450_nl.webp" 
+                         alt="Warna 2" 
+                         class="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover">
+                </div>
+                
+                <div class="color-variant cursor-pointer">
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7rbke-maxy7do3h5ywf8@resize_w450_nl.webp" 
+                         alt="Warna 3" 
+                         class="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover">
+                </div>
+            </div>
+            
+            <p class="text-center mt-8 text-gray-600">Pilih warna favorit Anda saat melakukan pemesanan</p>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-12 px-4">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12 rose-text">Testimoni Pelanggan</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="testimonial-card p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-rose-100 flex items-center justify-center text-rose-500">
+                            <i class="fas fa-user text-xl"></i>
+                        </div>
+                        <div class="ml-4">
+                            <h4 class="font-bold">Sarah Wijaya</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Saya sangat puas dengan Trailtop Balance Pad ini. Sebagai instruktur yoga, lutut saya sering sakit karena gerakan-gerakan tertentu. Setelah menggunakan produk ini, rasa sakit berkurang drastis. Bahannya sangat nyaman dan tidak licin!"</p>
+                </div>
+                
+                <div class="testimonial-card p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-rose-100 flex items-center justify-center text-rose-500">
+                            <i class="fas fa-user text-xl"></i>
+                        </div>
+                        <div class="ml-4">
+                            <h4 class="font-bold">Budi Santoso</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Produk ini benar-benar membantu latihan saya. Saya sering melakukan plank dan push-up, dan sebelumnya lutut dan siku sering sakit. Sekarang dengan Trailtop Balance Pad, latihan jadi lebih nyaman dan saya bisa fokus pada gerakan tanpa khawatir sakit."</p>
+                </div>
+                
+                <div class="testimonial-card p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-rose-100 flex items-center justify-center text-rose-500">
+                            <i class="fas fa-user text-xl"></i>
+                        </div>
+                        <div class="ml-4">
+                            <h4 class="font-bold">Dewi Anggraeni</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Awalnya ragu karena harganya lebih mahal dari produk sejenis, tapi setelah mencoba ternyata benar-benar worth it! Bahan lebih tebal dan empuk, tidak mudah penyok seperti produk lain. Pengiriman juga cepat, hanya 2 hari sudah sampai."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promo Countdown -->
+    <section class="py-8 px-4 bg-white">
+        <div class="container mx-auto max-w-4xl">
+            <div class="promo-timer p-6 rounded-xl text-center text-white">
+                <h3 class="text-xl md:text-2xl font-bold mb-2">PROMO SPESIAL HARI INI</h3>
+                <p class="mb-4">Dapatkan Diskon Spesial Untuk Hari Ini Saja, Harga Akan Kembali Normal Setelah:</p>
+                
+                <div class="flex justify-center space-x-4">
+                    <div class="bg-white text-rose-500 rounded-lg p-2 w-16">
+                        <div class="text-2xl font-bold" id="hours">12</div>
+                        <div class="text-xs">Jam</div>
+                    </div>
+                    <div class="bg-white text-rose-500 rounded-lg p-2 w-16">
+                        <div class="text-2xl font-bold" id="minutes">34</div>
+                        <div class="text-xs">Menit</div>
+                    </div>
+                    <div class="bg-white text-rose-500 rounded-lg p-2 w-16">
+                        <div class="text-2xl font-bold" id="seconds">56</div>
+                        <div class="text-xs">Detik</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Notes -->
+    <section class="py-8 px-4 bg-rose-50">
+        <div class="container mx-auto max-w-4xl">
+            <div class="grid md:grid-cols-3 gap-6 text-center">
+                <div class="p-4">
+                    <div class="text-rose-500 text-3xl mb-2">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h4 class="font-bold mb-1">Pengiriman Cepat</h4>
+                    <p class="text-sm">2 - 4 Hari Setelah Pemesanan</p>
+                </div>
+                
+                <div class="p-4">
+                    <div class="text-rose-500 text-3xl mb-2">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h4 class="font-bold mb-1">Alamat Lengkap</h4>
+                    <p class="text-sm">Mohon Isi Alamat Dengan Lengkap</p>
+                </div>
+                
+                <div class="p-4">
+                    <div class="text-rose-500 text-3xl mb-2">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h4 class="font-bold mb-1">Garansi Produk</h4>
+                    <p class="text-sm">100% Product Original</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="py-12 px-4 bg-white">
+        <div class="container mx-auto max-w-4xl">
+            <div class="flex flex-col md:flex-row items-center justify-center">
+                <div class="relative mb-8 md:mb-0 md:mr-8">
+                    <div class="discount-badge">
+                        DISKON<br>50%
+                    </div>
+                    <img src="https://down-sg.img.susercontent.com/file/my-11134207-7rasc-m2m4n17dbzc2f9" 
+                         alt="Promo Diskon" 
+                         class="w-full max-w-md rounded-lg shadow-lg">
+                </div>
+                
+                <div>
+                    <div class="text-rose-500 font-bold mb-2">HARGA PROMO</div>
+                    <div class="text-4xl font-bold mb-2">Rp 195.900</div>
+                    <div class="text-gray-400 line-through mb-4">Rp 391.800</div>
+                    <p class="text-green-600 font-bold mb-6">Anda Hemat Rp 195.900!</p>
+                    
+                    <a href="#order" class="bg-rose-500 hover:bg-rose-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transition transform hover:scale-105 inline-block">
+                        <i class="fas fa-bolt mr-2"></i> Pesan Sekarang
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Form -->
+    <section id="order" class="py-12 px-4 bg-gray-50">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-3xl font-bold text-center mb-8 rose-text">Form Pemesanan</h2>
+            
+            <div class="bg-white p-6 md:p-8 rounded-xl shadow-md">
+                <!-- OrderOnline Embed Code - v8.0.4 -->
+                <div class="ooef">
+                    <form class="orderonline-embed-form" data-username="elsa" data-product-slug="trailtop-balance-pad" data-product-id="6859730b3e58932c1e082f4d" id="oo-embed-form-trailtop-balance-pad-3304" data-origin="orderonline">
+                        <div class="ooef-loader"><style>.ooef-loader{visibility: hidden;opacity: 0;position: absolute;left: 0;right: 0;top: 0;bottom: 0;display: flex;justify-content: center;align-items: center;flex-direction: column;animation: ooLoadingIn 10s ease;-webkit-animation: ooLoadingIn 10s ease;animation-fill-mode: forwards;overflow: hidden}@keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}@-webkit-keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}.ooef-loader>div,.ooef-loader>div:after{border-radius: 50%;width: 2.5rem;height: 2.5rem}.ooef-loader>div{font-size: 10px;position: relative;text-indent: -9999em;border: .25rem solid #f5f5f5;border-left: .25rem solid #55c4cf;-webkit-transform: translateZ(0);-ms-transform: translateZ(0);transform: translateZ(0);-webkit-animation: ooLoading 1.1s infinite linear;animation: ooLoading 1.1s infinite linear}.ooef-loader.error>div{border-left: .25rem solid #ff4500;animation-duration: 5s}@-webkit-keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}@keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}</style><div aria-live="polite" role="status"><div>Loading...</div></div></div>
+                    </form>
+                </div>
+                <script>
+                    if (typeof xLogError != 'function') {
+                        var xLogError = function (error) {
+                            var req = new XMLHttpRequest();
+                            var payload = JSON.stringify({ url: document.location.href, line: error.line, stack: error.stack });
+                            var params = 'message=' + encodeURIComponent(error.name) + '&payload=' + encodeURIComponent(payload) + '&type=embed&level=error';
+                            req.open('POST', 'https://api.orderonline.id/log', true);
+                            req.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                            req.send(params);
+                        };
+                    }
+                    try {
+                        if (typeof xEmbedScript != 'function') {
+                            var xEmbedScript = function () {
+                                !function(w, d, e, v, id, t, s) {
+                                    if (d.getElementById(id)) return;
+                                    t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                                    s = d.getElementsByTagName(e)[0];
+                                    s.parentNode.insertBefore(t, s);
+                                }(window, document, 'script', 'https://cdn.orderonline.id/js/embed-v2-slim.min.js?v=8.0.4', 'oo-embed-js');
+                            };
+                        }
+                        if (typeof xEmbedInit != 'function') {
+                            var xEmbedInit = function (w, n) {
+                                if (w.ooe) return;
+                                n = w.ooe = function() {
+                                    n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                                };
+                                if (!w._ooe) w._ooe = n;
+                                n.push = n;n.loaded = !0;n.version = '8.0.4';n.queue = [];
+                            };
+                        }
+                        xEmbedInit(window);
+                        ooe('setup', 'redirect', 'https://elsa.orderonline.id');
+                        ooe('init', '5f1a584d68e4c05c6f66c677', '6859730b3e58932c1e082f4d', '6859730b3e58932c1e082f4e', 'oo-embed-form-trailtop-balance-pad-3304', {"mode":"page","action":"Klik untuk pemesanan","title":"Form Pemesanan","triggerPixel":true,"triggerGtm":false});
+                        if (!window.jQuery) {
+                            !function(w, d, e, v, id, t, s) {
+                                if (d.getElementById(id)) return;
+                                t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                                t.addEventListener('load', xEmbedScript);
+                                s = d.getElementsByTagName(e)[0];
+                                s.parentNode.insertBefore(t, s);
+                            }(window, document, 'script', 'https://cdn.orderonline.id/js/vendor/jquery.min.js', 'oo-embed-jquery');
+                        } else {
+                            xEmbedScript();
+                        }
+                    } catch (e) {
+                        xLogError(e);
+                        throw e;
+                    }
+                </script>
+                <!-- End OrderOnline Embed Code -->
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    
+    </section>
+
+    <!-- Footer -->
+    <footer >
+        
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    
+        </a>
+    </div>
+
+    <script>
+        // Countdown Timer
+        function updateCountdown() {
+            const now = new Date();
+            const midnight = new Date();
+            midnight.setHours(24, 0, 0, 0);
+            
+            const diff = midnight - now;
+            
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+            
+            document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+            document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+            document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+        }
+        
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+        
+        // FAQ Toggle
+        document.querySelectorAll('button').forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                const icon = button.querySelector('i');
+                
+                if (content.classList.contains('hidden')) {
+                    content.classList.remove('hidden');
+                    icon.classList.remove('fa-chevron-down');
+                    icon.classList.add('fa-chevron-up');
+                } else {
+                    content.classList.add('hidden');
+                    icon.classList.remove('fa-chevron-up');
+                    icon.classList.add('fa-chevron-down');
+                }
+            });
+        });
+        
+        // Color Variant Selection
+        document.querySelectorAll('.color-variant').forEach(variant => {
+            variant.addEventListener('click', () => {
+                document.querySelectorAll('.color-variant').forEach(v => {
+                    v.classList.remove('active');
+                });
+                variant.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
